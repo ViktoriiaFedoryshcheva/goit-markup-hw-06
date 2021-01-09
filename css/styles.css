@@ -38,6 +38,7 @@ body {
 	color: #212121;
 	text-decoration: none;
 	cursor: pointer;
+	outline: none;
 }
 
 .list {
@@ -163,6 +164,7 @@ body {
 .contact_tel:hover,
 .contact_tel:focus {
 	color: var(--accent-color);
+	outline: none;
 }
 
 .contact_mail:hover .pic_envelope,
@@ -231,6 +233,7 @@ body {
 .button:hover,
 .button:focus {
 	background-color: #188ce8;
+	outline: none;
 }
 /*==================   END HERO   ==================*/
 
@@ -466,11 +469,13 @@ body {
 .link_social:hover,
 .link_social:focus {
 	background-color: var(--accent-color);
+	outline: none;
 }
 
 .link_social:hover .icon_link,
 .link_social:focus .icon_link {
 	fill: #ffffff;
+	outline: none;
 }
 /*==================   END OUR TEAM   ==================*/
 
@@ -525,11 +530,13 @@ body {
 .link_client:hover,
 .link_client:focus {
 	border: 1px solid var(--accent-color);
+	outline: none;
 }
 
 .link_client:hover .icon_client,
 .link_client:focus .icon_client {
 	fill: var(--accent-color);
+	outline: none;
 }
 /*==================   END ABOUT   ==================*/
 
@@ -609,12 +616,14 @@ body {
 .dark_bg:hover,
 .dark_bg:focus {
 	background-color: var(--accent-color);
+	outline: none;
 }
 
 .dark_bg .icon_link,
 .dark_bg:focus .icon_link,
 .dark_bg:hover .icon_link {
 	fill: #ffffff;
+	outline: none;
 }
 
 .contact_us {
@@ -987,6 +996,7 @@ transition-property: fill;
 .button2:focus {
 	background-color: var(--accent-color);
 	color: #ffffff;
+	outline: none;
 }
 
 .project_list {
@@ -1025,6 +1035,7 @@ transition-property: fill;
 .project_item_a:focus,
 .project_item:hover {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	outline: none;
 }
 
 .image_box {
@@ -1062,6 +1073,7 @@ transition-property: fill;
 .project_item:hover .overlay,
 .project_item_a:focus .overlay {
 	transform: translateY(0);
+	outline: none;
 }
 
 .overlay {
