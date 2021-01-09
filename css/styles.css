@@ -930,8 +930,11 @@ transition-property: fill;
 }
 
 .modal_form-btn:hover,
-.modal_form-btn:focus {
+.modal_form-btn:focus,
+.modal_form-btn:active {
 	background-color: #188ce8;
+	border-color: transparent;
+	outline: none;
 }
 
 /*==================   END OF BACKDROP   ==================*/
