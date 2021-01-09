@@ -868,7 +868,7 @@ transition-property: fill;
 .modal_form-policy:checked + .modal_form-policy-text::before {
 	/* background-color: var(--accent-color); */
 	border: transparent;
-	background-image: url(/images_svg/icon_check.svg);
+	background-image: url(../images_svg/icon_check.svg);
 }
 
 .modal_form-policy-text {
